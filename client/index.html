@@ -60,7 +60,7 @@
     </table>
     <script src="js/app/models/Negociacao.js"></script>
     <script>
-        var n1 = new Negociacao(new Date(), 5, 700);
+        let n1 = new Negociacao(new Date(), 5, 700);
         Object.freeze(n1);
         n1._quantidade= 1000;
         console.log(n1);
@@ -68,6 +68,13 @@
         console.log(n1.valor);
         console.log(n1.quantidade)
         console.log(n1.volume);
+        
+        for (let index = 0; index < 10; index++) {
+            let nome = 'christian';
+        }
+      
+        console.log(index);
+        console.log(nome)
     </script>
 </body>
 </html>
